@@ -18,7 +18,8 @@
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"golang.go",
-				"hashicorp.terraform"
+				"hashicorp.terraform",
+				"amazonwebservices.aws-toolkit-vscode"
 			]
 		}
 	},

@@ -11,7 +11,7 @@ format:
 	terraform fmt --recursive
 	go fmt
 
-deploy: init apply
+deploy: build init apply
 
 init:
 	terraform -chdir=tf-resources init -backend-config="bucket=${BUCKET}"
